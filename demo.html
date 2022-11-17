@@ -1,0 +1,16 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <input type="text" id="put">
+        <button onclick="show()">click me</button>
+        <h1 id="demo"></h1>
+        <script>
+            function show(){
+                var input=document.getElementById("put").value
+                document.getElementById("demo").innerHTML=input
+                alert(input)
+            }
+        </script>
+    </body>
+</html>
